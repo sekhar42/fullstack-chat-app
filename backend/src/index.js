@@ -29,7 +29,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
 app.get("/" , (req , res) => {
-  res.send("welcome to our chat app")
+  res.send("welcome to our chat app..")
 })
 
 if (process.env.NODE_ENV === "production") {
